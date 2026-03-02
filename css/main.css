@@ -1,0 +1,54 @@
+/* Design Tokens */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Arial', sans-serif;
+    --font-size: 16px;
+    --spacing: 8px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: var(--primary-color);
+    padding: var(--spacing) 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+/* General Section Styles */
+.section {
+    padding: 20px;
+    margin: var(--spacing) 0;
+}
+
+.section h2 {
+    font-size: 2em;
+    color: var(--primary-color);
+}
+
+.section p {
+    font-size: var(--font-size);
+    line-height: 1.5;
+}
